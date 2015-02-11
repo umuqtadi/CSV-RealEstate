@@ -3,3 +3,7 @@ C:\Users\dustin\Documents\GitHub\CSV-RealEstate\CSV-RealEstate\bin\Debug\CSV-Rea
 C:\Users\dustin\Documents\GitHub\CSV-RealEstate\CSV-RealEstate\bin\Debug\CSV-RealEstate.pdb
 C:\Users\dustin\Documents\GitHub\CSV-RealEstate\CSV-RealEstate\obj\Debug\CSV-RealEstate.exe
 C:\Users\dustin\Documents\GitHub\CSV-RealEstate\CSV-RealEstate\obj\Debug\CSV-RealEstate.pdb
+C:\Users\dustin\Documents\GitHub\CSV-RealEstate\CSV-RealEstate\obj\Debug\CSV-RealEstate.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\CSV-RealEstate\CSV-RealEstate\bin\Debug\nunit.framework.dll
+C:\Users\dustin\Documents\GitHub\CSV-RealEstate\CSV-RealEstate\bin\Debug\nunit.framework.xml
+C:\Users\dustin\Documents\GitHub\CSV-RealEstate\CSV-RealEstate\bin\Debug\realestatedata.csv
