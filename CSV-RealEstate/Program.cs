@@ -96,14 +96,42 @@ namespace CSV_RealEstate
     public enum RealEstateType
     {
         //fill in with enum types: Residential, MultiFamily, Condo, Lot
+        Residential,
+        MultiFamily,
+        Condo,
+        Lot
     }
     class RealEstateSale
     {
         //Create properties, using the correct data types (not all are strings) for all columns of the CSV
-
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string Zip { get; set; }
+        public string State { get; set; }
+        public int Beds { get; set; }
+        public int Bath { get; set; }
+        public int Sq_ft { get; set; }
+        public string Type {get; set;}
+        public DateTime Sale_Date { get; set; }
+        public int Price { get; set; }
         //The constructor will take a single string arguement.  This string will be one line of the real estate data.
         // Inside the constructor, you will seperate the values into their corrosponding properties, and do the necessary conversions
+        public RealEstateSale(string input)
+        {
+            string[] dataOnDeck = input.Split(',');
 
+            this.Street = dataOnDeck[1];
+            this.City = dataOnDeck[2];
+            this.Zip = dataOnDeck[3];
+            this.State = dataOnDeck[4];
+            this.Beds = int.Parse(dataOnDeck[5]);
+            this.Bath = int.Parse(dataOnDeck[6]);
+            this.Sq_ft = int.Parse(dataOnDeck[7]);
+            this.Type = dataOnDeck[8];
+            this.Sale_Date = DateTime.Parse(dataOnDeck[9]);
+            this.Price = int.Parse(dataOnDeck[10]);
+
+        }
         //When computing the RealEstateType, if the square footage is 0, then it is of the Lot type, otherwise, use the string
         // value of the "Type" column to determine its corresponding enumeration type.
     }
